@@ -1,0 +1,158 @@
+{
+  "mappings": {
+    "properties": {
+      "doc_id": {
+        "type": "text"
+      },
+      "item_kw": {
+        "type": "text"
+      },
+      "ind_code": {
+        "type": "keyword"
+      },
+      "overview": {
+        "properties": {
+          "prod_serv_sum": {
+            "type": "text"
+          },
+          "motivation": {
+            "properties": {
+              "reason": {
+                "type": "text"
+              },
+              "market_needs": {
+                "type": "text"
+              },
+              "vision": {
+                "type": "text"
+              }
+            }
+          },
+          "uniq": {
+            "properties": {
+              "uniq_kw": {
+                "type": "text"
+              },
+              "uniq_desc": {
+                "type": "text"
+              }
+            }
+          },
+          "market_con": {
+            "properties": {
+              "year": {
+                "type": "integer"
+              }
+            }
+          }
+        }
+      },
+      "business_canvas": {
+        "properties": {
+          "cust_seg": {
+            "properties": {
+              "cust_seg_kw": {
+                "type": "text"
+              },
+              "cust_seg_detail": {
+                "type": "text"
+              }
+            }
+          },
+          "val_prop": {
+            "properties": {
+              "cust_seg_kw": {
+                "type": "text"
+              },
+              "val_prop_kw": {
+                "type": "text"
+              },
+              "val_prop_detail": {
+                "type": "text"
+              }
+            }
+          },
+          "chn": {
+            "properties": {
+              "cust_seg_kw": {
+                "type": "text"
+              },
+              "chn_kw": {
+                "type": "text"
+              },
+              "chn_detail": {
+                "type": "text"
+              }
+            }
+          },
+          "cust_rel": {
+            "properties": {
+              "cust_seg_kw": {
+                "type": "text"
+              },
+              "cust_rel_kw": {
+                "type": "text"
+              },
+              "cust_rel_detail": {
+                "type": "text"
+              }
+            }
+          },
+          "rev_streams": {
+            "properties": {
+              "rev_streams_kw": {
+                "type": "text"
+              },
+              "rev_streams_detail": {
+                "type": "text"
+              }
+            }
+          },
+          "key_res": {
+            "properties": {
+              "key_res_kw": {
+                "type": "text"
+              },
+              "key_res_detail": {
+                "type": "text"
+              }
+            }
+          },
+          "key_act": {
+            "properties": {
+              "key_act_kw": {
+                "type": "text"
+              },
+              "key_act_detail": {
+                "type": "text"
+              }
+            }
+          },
+          "key_part": {
+            "properties": {
+              "key_part_kw": {
+                "type": "text"
+              },
+              "key_part_detail": {
+                "type": "text"
+              }
+            }
+          },
+          "cost_str": {
+            "properties": {
+              "cost_str_kw": {
+                "type": "text"
+              },
+              "cost_str_detail": {
+                "type": "text"
+              }
+            }
+          }
+        }
+      },
+      "detail_desc": {
+        "type": "text"
+      }
+    }
+  }
+}
